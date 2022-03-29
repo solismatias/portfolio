@@ -1,0 +1,28 @@
+.experience {
+  margin-top: 20vh;
+  &__item {
+    display: flex;
+    align-items: center;
+    background-color: $grey;
+    padding: 4px;
+    margin: 15px 0;
+    @media (max-width: 600px) {
+      flex-direction: column-reverse;
+    }
+  }
+  &__title {
+    @include section-title;
+    margin-top: 50px;
+  }
+  &__image {
+    height: 150px;
+    margin: 0 20px;
+  }
+  &__name {
+    @include title;
+  }
+  &__info {
+    background-color: $mid-black;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+@font-face {
+  font-family: cubano;
+  src: url("../fonts/cubano.eot");
+  src: url("../fonts/cubano.eot?") format("☺"),
+    url("../fonts/cubano.woff") format("woff"),
+    url("../fonts/cubano.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@mixin title() {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+@mixin section-title() {
+  background-color: $white;
+  color: $black;
+  font-family: "cubano";
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 300px;
+  text-align: center;
+  font-size: 1.6rem;
+}

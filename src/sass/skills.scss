@@ -1,0 +1,88 @@
+.skills {
+  margin-top: 20vh;
+  &__title {
+    @include section-title;
+  }
+  &__container {
+    display: grid;
+    grid-gap: 10px;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 80px));
+    justify-content: center;
+  }
+  &__tech {
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
+    &:hover {
+      transform: scale(1.2);
+    }
+    &--javascript {
+      &:hover {
+        background-color: #f5dd1b;
+      }
+    }
+    &--html {
+      &:hover {
+        background-color: #f06429;
+      }
+    }
+    &--nodejs {
+      &:hover {
+        background-color: #7eba00;
+      }
+    }
+    &--react {
+      &:hover {
+        background-color: #60d5fe;
+      }
+    }
+    &--css {
+      &:hover {
+        background-color: #1599eb;
+      }
+    }
+    &--mongodb {
+      &:hover {
+        background-color: #90c46f;
+      }
+    }
+    &--git {
+      &:hover {
+        background-color: #f34b27;
+      }
+    }
+    &--figma {
+      &:hover {
+        background-color: #09cd81;
+      }
+    }
+    &--redux {
+      &:hover {
+        background-color: #7942c1;
+      }
+    }
+    &--sass {
+      &:hover {
+        background-color: #c8649a;
+      }
+    }
+    &--firebase {
+      &:hover {
+        background-color: #ffca2e;
+      }
+    }
+    &--ruby {
+      &:hover {
+        background-color: #da0000;
+      }
+    }
+    &--godot {
+      &:hover {
+        background-color: #498bbb;
+      }
+    }
+  }
+}

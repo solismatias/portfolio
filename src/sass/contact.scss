@@ -1,0 +1,38 @@
+.contact {
+  margin-top: 10vh;
+  &__title {
+    @include section-title;
+  }
+  &__container {
+    display: grid;
+    grid-gap: 10px;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 80px));
+    justify-content: center;
+  }
+  &__email {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  &__tech {
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
+    &:hover {
+      transform: scale(1.2);
+      cursor: pointer;
+    }
+    &--github {
+      &:hover {
+        background-color: #762e9c;
+      }
+    }
+    &--linkedin {
+      &:hover {
+        background-color: #0a66c2;
+      }
+    }
+  }
+}

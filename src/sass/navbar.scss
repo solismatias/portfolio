@@ -1,0 +1,36 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  @media (max-width: 768px) {
+    background-color: $black;
+  }
+  &__ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    @include title;
+    & li:nth-of-type(1) {
+      margin-left: auto;
+      margin-right: 5vw;
+    }
+    & li:nth-of-type(2) {
+      margin-right: 5vw;
+    }
+  }
+  &__item {
+    padding: 0;
+    border-radius: 0;
+    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
+    &:hover {
+      cursor: pointer;
+      border-bottom: 3px solid $white;
+      transform: scale(1.05);
+    }
+  }
+  &__menu-icon {
+    font-size: 2rem;
+  }
+}

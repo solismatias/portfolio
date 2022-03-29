@@ -1,0 +1,46 @@
+.projects {
+  background-color: $black;
+  margin-top: 20vh;
+  &__title {
+    @include section-title;
+    margin-bottom: 50px;
+  }
+  &__container {
+    display: grid;
+    gap: 1.5rem;
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    background-color: $grey;
+    padding: 4px;
+    min-height: 400px;
+  }
+  &__video {
+    width: 100%;
+  }
+  &__info {
+    background-color: $mid-black;
+    height: 100%;
+    padding: 15px;
+  }
+  &__name {
+    font-family: "cubano";
+  }
+  &__list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+  }
+  &__tech {
+    background-color: $grey;
+    width: max-content;
+    padding: 0 10px;
+    border-radius: 5px;
+  }
+}

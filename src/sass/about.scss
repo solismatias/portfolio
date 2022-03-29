@@ -1,0 +1,45 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;
+  &__image {
+    max-width: 250px;
+  }
+  &__me {
+    max-width: 700px;
+    line-height: 2.3rem;
+    text-align: center;
+  }
+  &__name {
+    background-color: $white;
+    color: $black;
+    font-family: "cubano";
+    padding: 5px;
+    border-radius: 5px;
+  }
+  &__dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background: rgb(0, 200, 0);
+    margin-right: 10px;
+    animation: blink 2s infinite;
+  }
+  &__hire {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

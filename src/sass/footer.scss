@@ -1,0 +1,102 @@
+.footer {
+  margin-top: 10vh;
+  &__terminal {
+    color: #b6b6b6;
+  }
+  &__svg {
+    color: #717171;
+    margin-top: 6px;
+  }
+  &__topbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    & p {
+      font-size: 10px;
+      color: #717171;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    @media (max-width: 768px) {
+      font-size: 0.4rem;
+    }
+    &--left {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      grid-column-gap: 20px;
+      -moz-column-gap: 20px;
+      column-gap: 20px;
+    }
+    &--right {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      grid-column-gap: 6px;
+      -moz-column-gap: 6px;
+      column-gap: 6px;
+      padding-right: 10px;
+    }
+  }
+  &__center {
+    background-color: $mid-black;
+    margin-top: 16px;
+    height: 185px;
+    overflow: auto;
+    & p {
+      letter-spacing: 0;
+      color: #b6b6b6;
+      font-size: 12px;
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 15px;
+    }
+    @media (max-width: 768px) {
+      font-size: 0.4rem;
+    }
+    &-wait {
+      color: #7dcfff;
+    }
+    &-event {
+      color: #bb9af7;
+    }
+  }
+  &__bottombar {
+    display: flex;
+    justify-content: space-between;
+    bottom: -1px;
+    right: 0;
+    width: 100%;
+    background-color: #141415;
+    border-top: 1px solid #000;
+    @media (max-width: 768px) {
+      font-size: 0.4rem;
+    }
+    & p {
+      font-size: 10px;
+      color: #717171;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    &-svg {
+      color: rgb(113, 113, 113);
+      margin-top: 5px;
+    }
+    &-left {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      grid-column-gap: 4px;
+      -moz-column-gap: 4px;
+      column-gap: 4px;
+    }
+    &-right {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      grid-column-gap: 15px;
+      -moz-column-gap: 15px;
+      column-gap: 15px;
+    }
+  }
+}
