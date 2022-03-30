@@ -25,4 +25,21 @@
     background-color: $mid-black;
     padding: 15px;
   }
+  &__link {
+    background-color: $white;
+    color: $black;
+    font-family: "cubano";
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 auto;
+    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
+    &:hover {
+      background-color: $black;
+      border: 2px solid $white;
+      color: $white;
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+  }
 }

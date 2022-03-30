@@ -21,8 +21,9 @@
     }
   }
   &__item {
-    padding: 0;
-    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    border-radius: 5px;
     transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
     &:hover {
       cursor: pointer;

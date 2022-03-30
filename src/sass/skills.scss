@@ -10,6 +10,9 @@
     grid-template-columns: repeat(auto-fit, minmax(80px, 80px));
     justify-content: center;
   }
+  &__name {
+    @include title;
+  }
   &__tech {
     width: 60px;
     padding: 10px;

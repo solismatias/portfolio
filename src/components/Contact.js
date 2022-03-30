@@ -30,7 +30,7 @@ const Contact = () => {
           </a>
         </div>
         <div className='contact__tech contact__tech--email'>
-          <a href='https://github.com/solismatias' target="_blank" rel="noreferrer">
+          <a href="mailto:solisma42@gmail.com?subject=Hello from your Website!">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Capa_1" x="0px" y="0px" width="45" height="45" fill="#FFFFFF" viewBox="0 0 350 350" >
               <path xmlns="http://www.w3.org/2000/svg" id="XMLID_350_" d="M173.871,177.097c-2.641,1.936-5.756,2.903-8.87,2.903c-3.116,0-6.23-0.967-8.871-2.903L30,84.602   L0.001,62.603L0,275.001c0.001,8.284,6.716,15,15,15L315.001,290c8.285,0,15-6.716,15-14.999V62.602l-30.001,22L173.871,177.097z" />
               <polygon xmlns="http://www.w3.org/2000/svg" id="XMLID_351_" points="165.001,146.4 310.087,40.001 19.911,40  " />
