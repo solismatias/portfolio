@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c4e9bcaf.css",
+    "main.js": "/portfolio/static/js/main.4bc919bd.js",
+    "static/media/pet.webm": "/portfolio/static/media/pet.57d5a69de42487ceb305.webm",
+    "static/media/league.webm": "/portfolio/static/media/league.3d3216d92f488753edcd.webm",
+    "static/media/greyprofile.png": "/portfolio/static/media/greyprofile.4d389a13ba57f11b47c9.png",
+    "static/media/family-pets.png": "/portfolio/static/media/family-pets.0b423bf7aba38c309595.png",
+    "static/media/alkemy.png": "/portfolio/static/media/alkemy.84689ea84f0213090981.png",
+    "static/media/cubano.eot?": "/portfolio/static/media/cubano.fd0c2c3fb35055981769.eot",
+    "static/media/cubano.ttf": "/portfolio/static/media/cubano.94f20d018fc05bf57862.ttf",
+    "static/media/cubano.woff": "/portfolio/static/media/cubano.5b26ca4105ed06379541.woff",
+    "index.html": "/portfolio/index.html",
+    "main.c4e9bcaf.css.map": "/portfolio/static/css/main.c4e9bcaf.css.map",
+    "main.4bc919bd.js.map": "/portfolio/static/js/main.4bc919bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4e9bcaf.css",
+    "static/js/main.4bc919bd.js"
+  ]
+}
