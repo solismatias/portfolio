@@ -45,4 +45,18 @@
     padding: 0 10px;
     border-radius: 5px;
   }
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 150px;
+  }
+  &__live {
+    padding: 0 5px;
+    border-radius: 3px;
+    &:hover {
+      color: $black;
+      background-color: $white;
+    }
+  }
 }

@@ -22,10 +22,14 @@ const Projects = () => {
 							<li className='projects__tech'>css</li>
 						</ul>
 						<p className='projects_description'>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent leo arcu, maximus sit amet bibendum id, sollicitudin vel dolor. Ut et dapibus erat.
+							Create your team of heroes, villains, mercenaries, antiheroes or whatever you like! Search for individual characters and inspect their stats.<br /> This website was part of a challenge to enter the Alkemy Internship/Acceleration, which I successfully delivered and was accepted!
 						</p>
-						{/* <i className="fa-brands fa-github" />
-						<p>live</p> */}
+						<div className='projects__links'>
+							<a href='https://github.com/solismatias/leaguemaker' target="_blank" rel="noreferrer">
+								<i className="fa-brands fa-github" />
+							</a>
+							<a className='projects__live' href='https://solismatias-leaguemaker.herokuapp.com/' target="_blank" rel="noreferrer">LIVE <i class="fa-solid fa-square-arrow-up-right"></i></a>
+						</div>
 					</div>
 				</div>
 				<div className='projects__item'>
@@ -41,7 +45,7 @@ const Projects = () => {
 							<li className='projects__tech'>firebase</li>
 						</ul>
 						<p className='projects_description'>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent leo arcu, maximus sit amet bibendum id, sollicitudin vel dolor. Ut et dapibus erat.
+							A CRUD sheet system for an Animal Hospital, whenever a dog needs a bath, the veterinarian will fill out a health report and appoint a consult if necessary, all reports are stored in the database and can be sorted, searched, deleted, edited or delivered as a WhatsApp message as needed.
 						</p>
 					</div>
 				</div>

@@ -8,7 +8,7 @@ const Experience = () => {
       <p className='experience__title'>EXPERIENCE</p>
       <div className='experience__item'>
         <div className='experience__info'>
-          <p className='experience__name'>Alkemy Acceleration</p>
+          <p className='experience__name'>Alkemy Internship/Acceleration</p>
           <p className='experience__description'>
             At the beginning of this year (2022) I started an acceleration that simulates a real work environment whose  objective is to achieve  a Job-Ready profile.<br /> Together with 7 coworkers and our mentor/Scrum-master, we developed a web management platform for an NGO, which we successfully completed in March!. I want to highlight that this acceleration, not only gave me solid knowledge in React, but it boosted my soft skills 100%, the team work & communication was a fundamental element, so I am very satisfied with this experience
           </p>
