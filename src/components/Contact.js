@@ -19,6 +19,12 @@ const Contact = () => {
             <p>LinkedIn</p>
           </a>
         </div>
+        <div className='contact__tech contact__tech--hackerrank'>
+          <a href='https://www.hackerrank.com/solisma42' target="_blank" rel="noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="#FFFFFF" role="img"><title>HackerRank icon</title><path d="M12 0c1.285 0 9.75 4.886 10.392 6 .645 1.115.645 10.885 0 12S13.287 24 12 24s-9.75-4.885-10.395-6c-.641-1.115-.641-10.885 0-12C2.25 4.886 10.715 0 12 0zm2.295 6.799c-.141 0-.258.115-.258.258v3.875H9.963V6.908h.701c.141 0 .254-.115.254-.258 0-.094-.049-.176-.123-.221L9.223 4.92c-.049-.063-.141-.109-.226-.109-.084 0-.16.045-.207.107L7.11 6.43c-.072.045-.12.126-.12.218 0 .143.113.258.255.258h.704l.008 10.035c0 .145.111.258.254.258h1.492c.142 0 .259-.115.259-.256v-4.004h4.073v4.152h-.699c-.143 0-.256.115-.256.258 0 .092.048.174.119.219l1.579 1.51c.044.061.141.109.225.109.085 0 .159-.045.208-.109l1.679-1.51c.072-.045.12-.127.12-.219 0-.143-.115-.258-.255-.258h-.704l-.007-10.034c0-.145-.114-.26-.255-.26h-1.494v.002z" /></svg>
+            <p>HackerRank</p>
+          </a>
+        </div>
         <div className='contact__tech contact__tech--curriculum'>
           <a href='https://drive.google.com/file/d/12G26vxijNC_YOwwrRK6pcDInvgNFSoaE/view' target="_blank" rel="noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Capa_1" x="0px" y="0px" width="45" height="45" fill="#FFFFFF" >
