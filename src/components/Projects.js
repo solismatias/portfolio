@@ -1,12 +1,46 @@
 import React from 'react'
 import league from "../videos/league.webm"
 import pet from "../videos/pet.webm"
+import frontstore from "../videos/frontstore.webm"
+
 
 const Projects = () => {
 	return (
 		<div className='projects' id="projects">
 			<div className='projects__title'>SELECTED PROJECTS</div>
 			<div className='projects__container'>
+				<div className='projects__item'>
+					<video muted autoPlay loop className='projects__video'>
+						<source src={frontstore} type="video/webm" />
+					</video>
+					<div className='projects__info'>
+						<p className='projects__name'>Front Store</p>
+						<ul className='projects__list'>
+							<li className='projects__tech'>react</li>
+							<li className='projects__tech'>react router</li>
+							<li className='projects__tech'>redux</li>
+							<li className='projects__tech'>graphql</li>
+							<li className='projects__tech'>apollo</li>
+							<li className='projects__tech'>sass</li>
+						</ul>
+						<p className='projects_description'>
+							A nice looking front store, with:
+							<ul>
+								<li>category page</li>
+								<li>product page</li>
+								<li>Cart page + mini cart</li>
+								<li>Ability to add/remove products and change their amounts in cart</li>
+								<li>Ability to change the currency of the store to one of the available currencies</li>
+								<li>⚠ this project was done entirely with react class components</li>
+							</ul>
+						</p>
+						<div className='projects__links'>
+							<a href='https://github.com/solismatias/scandiweb' target="_blank" rel="noreferrer">
+								<i className="fa-brands fa-github" />
+							</a>
+						</div>
+					</div>
+				</div>
 				<div className='projects__item'>
 					<video muted autoPlay loop className='projects__video'>
 						<source src={league} type="video/webm" />
@@ -41,6 +75,7 @@ const Projects = () => {
 						<ul className='projects__list'>
 							<li className='projects__tech'>react</li>
 							<li className='projects__tech'>css</li>
+							<li className='projects__tech'>materialui</li>
 							<li className='projects__tech'>formik</li>
 							<li className='projects__tech'>firebase</li>
 						</ul>
